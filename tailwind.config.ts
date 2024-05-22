@@ -11,6 +11,9 @@ const config: Config = {
       screens: {
         xs: '340px',
       },
+      translate: {
+        '-full-out': '-150%',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
