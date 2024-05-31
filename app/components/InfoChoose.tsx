@@ -36,7 +36,7 @@ function InfoChoose() {
         </div>
       </div>
 
-      <div className='text-center lg:px-0 px-12'>
+      <div className='text-center lg:px-0 sm:px-12 px-0'>
         <p className='text-xl pb-3'>
           With deep expertise that spans across the trailer security spectrum,
           we can optimize your transport protection at any level.

@@ -23,7 +23,7 @@ const Contact = () => {
     <motion.section
       id="contact"
       ref={ref}
-      className="mb-20 sm:mb-28 sm:px-24 px-6 w-full flex flex-col items-center text-center"
+      className="mb-20 sm:mb-28 sm:px-24 px-3 w-full flex flex-col items-center text-center"
       initial={{ y: -100, opacity: 0 }}
       whileInView={{ y: 1, opacity: 1 }}
       viewport={{ once: true }}

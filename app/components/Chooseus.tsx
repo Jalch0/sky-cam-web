@@ -21,8 +21,8 @@ function Chooseus() {
         transition={{ duration: 0.5 }}
         >
           <div className="flex flex-col items-center">
-            <h2 className="text-4xl pb-2 text-center">WHY SHOULD YOU CHOOSE US</h2>
-            <p className="text-xl text-center leading-relaxed pb-2 text-slate-100">
+            <h2 className="sm:text-4xl text-2xl pb-2 text-center">WHY SHOULD YOU CHOOSE US</h2>
+            <p className="sm:text-xl text-lg text-center leading-relaxed pb-2 text-slate-100">
               We help you strategize for trailer security, designing and
               implementing comprehensive <br /> security plans to ensure a
               robust, reliable, and secure transport experience.

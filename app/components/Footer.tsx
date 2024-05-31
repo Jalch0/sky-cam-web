@@ -7,15 +7,12 @@ import { IoMailOpen } from "react-icons/io5";
 import { FaLocationArrow } from "react-icons/fa6";
 import Link from 'next/link';
 
-
-
-
 function Footer() {
   return (
-    <div className='pt-14 w-full bg-neutral-200'>
-        <div className='flex sm:justify-between flex-col items-center lg:items-start lg:gap-10 lg:flex-row px-16'>
+    <div className='pt-14 w-full bg-neutral-200 px-10'>
+        <div className='flex sm:justify-between flex-col items-center lg:items-start lg:gap-10 lg:flex-row w-full'>
           {/* Left */}
-          <div className='w-96 flex flex-col items-center gap-4'>
+          <div className='sm:w-96 flex flex-col items-center gap-4'>
             <Image
             src={LogoSkyCam}
             alt='Logo SkyCam'
@@ -40,7 +37,7 @@ function Footer() {
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6556.575752133622!2d-86.63927208297122!3d34.748340431257006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88626b97cbb983df%3A0x95ffbbe4df4af079!2s1918a%20Jordan%20Ln%20NW%2C%20Huntsville%2C%20AL%2035816%2C%20EE.%20UU.!5e0!3m2!1ses!2sve!4v1717042287995!5m2!1ses!2sve" width="100%" height="450" style={{border: 0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
-        <div className='py-6 text-center'>
+        <div className='py-6 text-center w-full'>
             <p className='font-bold'>Copyright © 2024 Sky-Cam | Mobile Surveillance Trailers - All Rights Reserved</p>
         </div>
     </div>

@@ -1,5 +1,4 @@
 import CardInfo from "./components/CardInfo";
-import CardInfo2 from "./components/CardInfo2";
 import Carousel  from "./components/Carousel";
 import Chooseus from "./components/Chooseus";
 import Contact from "./components/Contact";
@@ -12,20 +11,18 @@ export default function Home() {
 
 
   return (
-    <div className="flex flex-col items-center">
-      <div className="w-full">
+    <div className="w-fullflex flex-col items-center">
+       <div className="">
         <Carousel/>
       </div>
-        <div className="flex flex-col gap-11 py-24">
-          <CardInfo/>
-          <CardInfo2/>
-        </div> 
+        <CardInfo/>
         <Chooseus/>
         <InfoChoose />
         <Review />
         <Projects />
         <Products />
         <Contact />
+        
     </div>
   );
 }
