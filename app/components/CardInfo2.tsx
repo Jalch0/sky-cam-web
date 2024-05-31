@@ -15,15 +15,15 @@ function CardInfo() {
       transition={{ duration: 0.5 }}
     >
       <div className='px-12 text-neutral-600 xl:order-2 order-0'>
-        <h2 className="text-4xl pb-4">BUILDING EXTRAORDINARY HOMES</h2>
-        <p className="text-xl pb-3 leading-relaxed">
+        <h2 className="text-4xl pb-4 sm:text-start text-center">BUILDING EXTRAORDINARY HOMES</h2>
+        <p className="sm:text-xl text-lg pb-3 leading-relaxed">
           With over 18 years of experience, Keystone Construction offers
           beautiful <br /> high quality custom home building and renovation
           services in the
           <br /> Bloomington, Indiana area.
         </p>
         <div className="w-12 h-[1.5px] bg-red-500" />
-        <p className="pt-3 pb-5 leading-relaxed text-xl">
+        <p className="pt-3 pb-10 leading-relaxed sm:text-lg text-md">
           Our dedicated team will help you through the process of a new build or
           remodel to make <br /> it straightforward and enjoyable, ensuring that
           your home reflects your individual taste.

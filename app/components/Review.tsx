@@ -33,7 +33,7 @@ function Review() {
         lg:items-start
         lg:gap-10"
         >
-          <div className="bg-white py-10 px-10 w-[500px] rounded-lg hover:-translate-x-1 hover:-translate-y-1 transition cursor-pointer">
+          <div className="bg-white py-10 px-10 sm:w-[500px]  rounded-lg hover:-translate-x-1 hover:-translate-y-1 transition cursor-pointer">
             <div>
               <span className="flex text-yellow-300 justify-center text-xl pb-2 gap-2">
                 <GoStarFill />
@@ -65,7 +65,7 @@ function Review() {
             </div>
           </div>
 
-          <div className="bg-white py-10 px-10 w-[500px] rounded-lg hover:-translate-x-1 hover:-translate-y-1 transition cursor-pointer">
+          <div className="bg-white py-10 px-10 sm:w-[500px] rounded-lg hover:-translate-x-1 hover:-translate-y-1 transition cursor-pointer">
             <div>
               <span className="flex text-yellow-300 justify-center text-xl pb-2 gap-2">
                 <GoStarFill />
@@ -97,7 +97,7 @@ function Review() {
             </div>
           </div>
 
-          <div className="bg-white py-10 px-10 w-[500px] rounded-lg hover:-translate-x-1 hover:-translate-y-1 transition cursor-pointer">
+          <div className="bg-white py-10 px-10 sm:w-[500px] rounded-lg hover:-translate-x-1 hover:-translate-y-1 transition cursor-pointer">
             <div>
               <span className="flex text-yellow-300 justify-center text-xl pb-2 gap-2">
                 <GoStarFill />
@@ -129,7 +129,7 @@ function Review() {
             </div>
           </div>
 
-          <div className="bg-white py-10 px-10 w-[500px] rounded-lg hover:-translate-x-1 hover:-translate-y-1 transition cursor-pointer hidden xl:block">
+          <div className="bg-white py-10 px-10 sm:w-[500px] rounded-lg hover:-translate-x-1 hover:-translate-y-1 transition cursor-pointer hidden xl:block">
             <div>
               <span className="flex text-yellow-300 justify-center text-xl pb-2 gap-2">
                 <GoStarFill />

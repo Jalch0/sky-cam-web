@@ -21,7 +21,7 @@ function Footer() {
             alt='Logo SkyCam'
             width={170}
             />
-            <p className='leading-6'>Our mission is to provide top-tier mobile surveillance services using state-of-the-art trailer units to ensure the safety and security of our clients assets and properties. We are committed to delivering reliable, flexible, and efficient security solutions tailored to meet the unique needs of each client.</p>
+            <p className='leading-6 sm:px-0 px-5'>Our mission is to provide top-tier mobile surveillance services using state-of-the-art trailer units to ensure the safety and security of our clients assets and properties. We are committed to delivering reliable, flexible, and efficient security solutions tailored to meet the unique needs of each client.</p>
             <Link
             href="#home"
             className='py-2 px-4 bg-red-600 rounded text-white hover:scale-110 hover:-translate-y-1 transition hover:bg-white hover:text-red-600'

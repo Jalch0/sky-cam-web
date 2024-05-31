@@ -15,10 +15,10 @@ function CardInfo() {
     transition={{ duration: 0.5 }}
     >
         <div className='px-12 text-neutral-600'> 
-            <h2 className='text-4xl pb-4'>BUILDING EXTRAORDINARY HOMES</h2>
-            <p className='text-xl pb-3 leading-relaxed'>With over 18 years of experience, Keystone Construction offers beautiful <br/> high quality custom home building and renovation services in the<br/> Bloomington, Indiana area.</p>
+            <h2 className='text-4xl pb-4 sm:text-start text-center'>BUILDING EXTRAORDINARY HOMES</h2>
+            <p className='sm:text-xl text-lg pb-3 leading-relaxed'>With over 18 years of experience, Keystone Construction offers beautiful <br/> high quality custom home building and renovation services in the<br/> Bloomington, Indiana area.</p>
             <div className='w-12 h-[1.5px] bg-red-500'/>
-            <p className='pt-3 pb-10 leading-relaxed text-lg'>Our dedicated team will help you through the process of a new build or remodel to make <br/> it straightforward and enjoyable, ensuring that your home reflects your individual taste.<br/> With every unique project, our mission is to serve you by building or renovating the home<br/> of your dreams.</p>
+            <p className='pt-3 pb-10 leading-relaxed sm:text-lg text-md'>Our dedicated team will help you through the process of a new build or remodel to make <br/> it straightforward and enjoyable, ensuring that your home reflects your individual taste.<br/> With every unique project, our mission is to serve you by building or renovating the home<br/> of your dreams.</p>
             <Link href='#products' className='px-14 py-4 bg-white text-slate-700 rounded-[2.5rem] border border-slate-700 hover:text-white hover:bg-slate-700 transition tracking-widest'>VIEW MORE</Link>
         </div>
         <div className="py-12 xl:py-0 xl:w-[600px] sm:w-[800px] w-[400px]">

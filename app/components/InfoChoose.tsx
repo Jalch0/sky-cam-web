@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 function InfoChoose() {
   return (
-    <motion.div className="flex flex-col items-center py-24"
+    <motion.div className="flex flex-col items-center py-24 px-10 sm:px-0"
     initial={{ y: -100, opacity: 0 }}
     whileInView={{ y: 1, opacity: 1 }}
     viewport={{ once: true }}

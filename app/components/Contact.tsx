@@ -23,16 +23,16 @@ const Contact = () => {
     <motion.section
       id="contact"
       ref={ref}
-      className="mb-20 sm:mb-28 px-24 w-full flex flex-col items-center text-center"
+      className="mb-20 sm:mb-28 sm:px-24 px-6 w-full flex flex-col items-center text-center"
       initial={{ y: -100, opacity: 0 }}
       whileInView={{ y: 1, opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
     >
       <div
-        className="w-full px-10 py-5 border shadow-xl "
+        className="w-full sm:px-10 px-0 py-5 border shadow-xl "
       >
-        <h2 className="text-4xl text-neutral-950 font-bold lg:text-start text-center">Contact us</h2>
+        <h2 className="text-4xl text-neutral-950 font-bold md:text-start text-center">Contact us</h2>
         <div className="w-full">
           <form
             action={async (formData) => {
