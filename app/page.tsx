@@ -1,6 +1,8 @@
 import CardInfo from "./components/CardInfo";
+import CardInfo2 from "./components/CardInfo2";
 import Carousel  from "./components/Carousel";
 import Chooseus from "./components/Chooseus";
+import Contact from "./components/Contact";
 import InfoChoose from "./components/InfoChoose";
 import Products from "./components/Products";
 import Projects from "./components/Projects";
@@ -15,14 +17,15 @@ export default function Home() {
         <Carousel/>
       </div>
         <div className="flex flex-col gap-11 py-24">
-          <CardInfo order={1}/>
-          <CardInfo order={2}/>
-        </div>
+          <CardInfo/>
+          <CardInfo2/>
+        </div> 
         <Chooseus/>
         <InfoChoose />
         <Review />
         <Projects />
         <Products />
+        <Contact />
     </div>
   );
 }
