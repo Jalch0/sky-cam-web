@@ -15,7 +15,7 @@ export default function Home() {
     <div className="flex flex-col items-center">
       <div className="w-full">
         <Carousel/>
-      </div>{/* 
+      </div>
         <div className="flex flex-col gap-11 py-24">
           <CardInfo/>
           <CardInfo2/>
@@ -25,7 +25,7 @@ export default function Home() {
         <Review />
         <Projects />
         <Products />
-        <Contact /> */}
+        <Contact />
     </div>
   );
 }
