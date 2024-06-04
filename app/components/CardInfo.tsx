@@ -13,7 +13,7 @@ function CardInfo() {
     flex 
     flex-col 
     items-center
-    py-5
+    pt-5
     w-full
     "
       initial={{ y: -100, opacity: 0 }}
@@ -21,25 +21,24 @@ function CardInfo() {
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
     >
-      <div className="xl:flex xl:justify-center xl:items-center xl:pt-14 ">
-        <div className="sm:px-12 px-5 text-neutral-600">
+      <div className="xl:flex xl:flex-row xl:justify-center xl:items-center xl:pt-14 flex flex-col items-center">
+        <div className="sm:px-0 md:mr-14 mr-0 xs:px-10 px-24 text-neutral-600 2xl:w-1/3 md:w-1/2 w-full">
           <h2 className="text-4xl pb-4 sm:text-start text-center ">
             BUILDING EXTRAORDINARY HOMES
           </h2>
           <p className="sm:text-xl text-lg pb-3 leading-relaxed ">
             With over 18 years of experience, Keystone Construction offers
-            beautiful <br /> high quality custom home building and renovation
-            services in the
-            <br /> Bloomington, Indiana area.
+            beautiful high quality custom home building and renovation
+            services in the Bloomington, Indiana area.
           </p>
           <div className="w-12 h-[1.5px] bg-red-500 " />
-          <p className="pt-3 pb-10 leading-relaxed sm:text-lg text-md ">
+          <p className="pt-3 pb-10 leading-relaxed sm:text-lg text-md text-justify">
             Our dedicated team will help you through the process of a new build
-            or remodel to make <br /> it straightforward and enjoyable, ensuring
+            or remodel to make it straightforward and enjoyable, ensuring
             that your home reflects your individual taste.
-            <br /> With every unique project, our mission is to serve you by
+            With every unique project, our mission is to serve you by
             building or renovating the home
-            <br /> of your dreams.
+            of your dreams.
           </p>
           <div className="xl:text-start text-center">
             <Link
@@ -50,22 +49,24 @@ function CardInfo() {
             </Link>
           </div>
         </div>
-        <div className="py-12 xl:py-0 w-full h-full xl:w-1/2 flex justify-center ">
+        <div className="py-12 xl:py-0 w-full xl:w-1/3 flex justify-center">
           <Image
             src={
-              "https://images.unsplash.com/photo-1496368077930-c1e31b4e5b44?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              "https://res.cloudinary.com/dfrphr9rl/image/upload/v1717211617/hsldzqieaumflkggdzcv.jpg"
             }
             alt="ImgSec"
             width={500}
-            height={500}
+            height={250}
             objectFit="cover"
-            className="xl:w-[600px] sm:w-[600px] w-[300px] px-12"
+            className="xl:w-[600px] sm:w-[600px] h-[400px] w-[300px] px-5 object-cover"
           />
         </div>
       </div>
 
-      <div className="xl:flex xl:justify-center xl:items-center xl:py-14">
-        <div className="sm:px-12 px-5 py-5 text-neutral-600 xl:order-2 order-0">
+
+          {/* 2 */}
+      <div className="xl:flex xl:flex-row xl:justify-center xl:items-center xl:pt-14 flex flex-col items-center w-full sm:w-3/4 mb-14">
+        <div className="sm:px-0 sm:ml-14 ml-0 xs:px-10 px-24 text-neutral-600 2xl:w-1/3 md:w-1/2 w-full xl:order-2 order-0">
           <h2 className="text-4xl pb-4 sm:text-start text-center">
             BUILDING EXTRAORDINARY HOMES
           </h2>
@@ -76,7 +77,7 @@ function CardInfo() {
             <br /> Bloomington, Indiana area.
           </p>
           <div className="w-12 h-[1.5px] bg-red-500" />
-          <p className="pt-3 pb-10 leading-relaxed sm:text-lg text-md">
+          <p className="pt-3 pb-10 leading-relaxed sm:text-lg text-md text-justify">
             Our dedicated team will help you through the process of a new build
             or remodel to make <br /> it straightforward and enjoyable, ensuring
             that your home reflects your individual taste.
@@ -93,16 +94,16 @@ function CardInfo() {
             </Link>
           </div>
         </div>
-        <div className="py-12 xl:py-0 w-full h-full xl:w-1/2 flex justify-center">
+        <div className="py-12 xl:py-0 w-full xl:w-1/3 flex justify-center">
           <Image
             src={
-              "https://images.unsplash.com/photo-1496368077930-c1e31b4e5b44?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              "https://res.cloudinary.com/dfrphr9rl/image/upload/v1717468748/kkqltthzckpx1dmdsigk.jpg"
             }
             alt="ImgSec"
             width={500}
-            height={500}
+            height={250}
             objectFit="cover"
-            className="xl:w-[600px] sm:w-[600px] w-[300px] xl:px-0 px-12"
+            className="xl:w-[600px] sm:w-[600px] h-[400px] w-[300px] px-5 object-cover"
           />
         </div>
       </div>

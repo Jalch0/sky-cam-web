@@ -67,16 +67,16 @@ const Carousel = () => {
           >
             <div className="w-full h-[40rem]">
               <Image
-                src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(15).jpg"
+                src="https://res.cloudinary.com/dfrphr9rl/image/upload/v1717210419/b9lecqlnrfqwfj450923.jpg"
                 alt="..."
                 fill={true}
                 objectFit="cover"
               />
             </div>
 
-            <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-              <h5 className="text-xl">First slide label</h5>
-              <p>
+            <div className="absolute inset-x-[15%] bottom-1/2 hidden py-5 text-center text-white md:block">
+              <h5 className="text-4xl drop-shadow-[0_2.2px_1.2px_rgba(0,0,0,1)] font-bold uppercase">Take your Mobile Surveillance Trailer</h5>
+              <p className="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] font-bold text-2xl">
                 Some representative placeholder content for the first slide.
               </p>
             </div>
@@ -89,17 +89,17 @@ const Carousel = () => {
           >
             <div className="w-[250px] h-[40rem]">
               <Image
-                src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg"
+                src="https://res.cloudinary.com/dfrphr9rl/image/upload/v1717210624/pjmfuhdkutdlpnvlcunf.jpg"
                 alt="..."
                 fill={true}
                 objectFit="cover"
               />
             </div>
 
-            <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-              <h5 className="text-xl">Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
+            <div className="absolute inset-x-[15%] bottom-1/2 hidden py-5 text-center text-white md:block">
+            <h5 className="text-4xl drop-shadow-[0_2.2px_1.2px_rgba(0,0,0,1)] font-bold uppercase">Take your Mobile Surveillance Trailer</h5>
+              <p className="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] font-bold text-2xl">
+                Some representative placeholder content for the first slide.
               </p>
             </div>
           </div>
@@ -111,17 +111,17 @@ const Carousel = () => {
           >
             <div className="w-[250px] h-[40rem]">
               <Image
-                src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(23).jpg"
+                src="https://res.cloudinary.com/dfrphr9rl/image/upload/v1717210624/jhxuwfzawbncrlgyxpju.jpg"
                 alt="..."
                 fill={true}
                 objectFit="cover"
               />
             </div>
 
-            <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-              <h5 className="text-xl">Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
+            <div className="absolute inset-x-[15%] bottom-1/2 hidden py-5 text-center text-white md:block">
+            <h5 className="text-4xl drop-shadow-[0_2.2px_1.2px_rgba(0,0,0,1)] font-bold uppercase">Take your Mobile Surveillance Trailer</h5>
+              <p className="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] font-bold text-2xl">
+                Some representative placeholder content for the first slide.
               </p>
             </div>
           </div>

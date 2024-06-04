@@ -10,7 +10,11 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: 'tecdn.b-cdn.net',
-            }
+            },
+            {
+                protocol: 'https',
+                hostname: 'res.cloudinary.com',
+            },
         ],
     },
 };
