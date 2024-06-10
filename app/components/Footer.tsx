@@ -27,7 +27,7 @@ function Footer() {
           {/* Center */}
           <div className='flex flex-col justify-start xs:py-12 lg:py-0 py-12'>
               <h3 className='text-2xl text-center font-bold pb-4'>LOCATION</h3>
-             <span className='flex gap-2 items-center text-md pb-1'><FaBuilding className='text-red-600 text-lg'/> <p className=''>1918A Jordan Ln NW</p></span>
+             <span className='flex gap-2 items-center text-md pb-1'><FaBuilding className='text-red-600 text-lg '/> <p className=''>1918A Jordan Ln NW</p></span>
              <span className='flex gap-2 items-center text-md pb-1'><FaPhoneAlt className='text-red-600 text-lg'/> <p className=''>+1 256 714 7099</p></span>
              <span className='flex gap-2 items-center text-md'><IoMailOpen className='text-red-600 text-lg'/> <p className=''>ai@sky-cam.com</p></span> 
           </div>

@@ -43,7 +43,7 @@ const [hovered3, setHovered3] = useState(false);
           >
             <div className="relative w-full h-full">
               <Image
-                src={Image1}
+                src={'https://res.cloudinary.com/dfrphr9rl/image/upload/v1717990495/lglulum5stieykwp3lue.jpg'}
                 alt="TrailersImage"
                 layout="fill"
                 objectFit="cover"
@@ -89,7 +89,7 @@ const [hovered3, setHovered3] = useState(false);
           >
             <div className="relative w-full h-full">
               <Image
-                src={Image2}
+                src={'https://res.cloudinary.com/dfrphr9rl/image/upload/v1717990672/l4ftugroy9nrx72argfo.jpg'}
                 alt="TrailersImage"
                 layout="fill"
                 objectFit="cover"
@@ -133,7 +133,7 @@ const [hovered3, setHovered3] = useState(false);
           >
             <div className="relative w-full h-full">
               <Image
-                src={Image3}
+                src={'https://res.cloudinary.com/dfrphr9rl/image/upload/v1717990619/q8hpdhz2zueamlclyj79.jpg'}
                 alt="TrailersImage"
                 layout="fill"
                 objectFit="cover"
