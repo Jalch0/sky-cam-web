@@ -23,7 +23,7 @@ function Projects() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
       >
-        <h2 className="text-center pb-12 text-4xl font-bold text-slate-700">
+        <h2 className="text-center pb-12 text-4xl font-bold text-red-300 ">
           TAKE A LOOK AT OUR PRODUCTS
         </h2>
         <div
