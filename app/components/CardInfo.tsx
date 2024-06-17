@@ -33,7 +33,7 @@ function CardInfo() {
           <p className="sm:text-xl text-lg pb-3 leading-relaxed text-justify">
           Our mission is to ensure optimal coverage and peace of mind for every client. Equipped with advanced technology, including a smart AI system and ample storage capabilities, our surveillance trailers are monitored 24/7 to deliver real-time video feeds and alerts, keeping you informed and secure at all times.
           </p>
-          <div className="w-12 h-[1.5px] bg-red-400 mb-10 " />
+          <div className="w-12 h-[1.5px] bg-red-300 mb-10" />
           <div className="xl:text-start text-center">
             <Link
               href="#products"
@@ -65,9 +65,9 @@ function CardInfo() {
           Sky-cam offers cost-efficient options
           </h2>
           <p className="sm:text-xl text-lg pb-3 leading-relaxed">
-          Our trailers are designed for maximum flexibility and ease of deployment, making them ideal for various applications such as construction site monitoring, event security, and remote facility surveillance. Whether you need short-term monitoring or long-term security solutions
+          Our trailers are designed for maximum flexibility and ease of deployment, making them ideal for various applications such as construction site monitoring, event security, and remote facility surveillance. Whether you need short-term monitoring or long-term security solutions.
           </p>
-          <div className="w-12 h-[1.5px] bg-red-400 mb-10" />
+          <div className="w-12 h-[1.6px] bg-red-300 mb-10" />
           <div className="xl:text-start text-center">
             <Link
               href="#products"

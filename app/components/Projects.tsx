@@ -83,7 +83,7 @@ function Projects() {
                 hovered ? "opacity-100" : "opacity-0"
               }`}
             >
-              <span className="text-2xl font-bold text-center">
+              <span className="sm:text-2xl text-lg font-bold text-center">
                 Run Time - 70 hours<br/>
                 Charge Time - 8 hours<br/>
                 System Voltage - 24V DC<br/>
@@ -135,7 +135,7 @@ function Projects() {
                 hovered2 ? "opacity-100" : "opacity-0"
               }`}
             >
-              <span className="text-2xl font-bold text-center">
+              <span className="sm:text-2xl text-lg font-bold text-center">
                 No. of Solar Panel - 3<br/>
                 Panel Wattage - 380W<br/>
                 Panel Output - 1140W<br/>
@@ -186,7 +186,7 @@ function Projects() {
                 hovered3 ? "opacity-100" : "opacity-0"
               }`}
             >
-              <span className="text-2xl font-bold text-center">
+              <span className="sm:text-2xl text-lg font-bold text-center">
                 Type - Electric Mast<br/>
                 Material - Galvanized Steel<br/>
                 Extended Height - 20ft<br/>

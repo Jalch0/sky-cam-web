@@ -18,7 +18,7 @@ function Footer() {
             alt='Logo SkyCam'
             width={170}
             />
-            <p className='leading-6 sm:px-0 px-5 text-justify'>Feel free to reach out to us at Sky-cam for any inquiries or to discuss your surveillance needs. Our dedicated team in Huntsville, Alabama, is here to ensure you receive the best service and support. Whether you are interested in our advanced surveillance trailers, need assistance with deployment, or have questions about our monitoring capabilities, we are ready to help. Contact us today to experience reliable security solutions tailored to your specific requirements..</p>
+            <p className='leading-6 sm:px-0 px-5 text-justify'>Feel free to reach out to us at Sky-cam for any inquiries or to discuss your surveillance needs. Our dedicated team in Huntsville, Alabama, is here to ensure you receive the best service and support. Whether you are interested in our advanced surveillance trailers, need assistance with deployment, or have questions about our monitoring capabilities, we are ready to help. Contact us today to experience reliable security solutions tailored to your specific requirements.</p>
             <Link
             href="#home"
             className='py-2 px-4 bg-red-600 rounded text-white hover:scale-110 hover:-translate-y-1 transition hover:bg-white hover:text-red-600'
