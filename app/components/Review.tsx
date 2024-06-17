@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 
 function Review() {
-  const { ref } = useSectionInView("Reviews", 0.25);
+  const { ref } = useSectionInView("Reviews", 0.5);
 
   return (
     <section ref={ref} id="reviews" className="w-full">
@@ -20,7 +20,7 @@ function Review() {
         transition={{ duration: 0.5 }}
       >
         <h2 className="text-white text-center font-bold pb-10 text-5xl">
-          People Who Work With Us Say
+        Our trusted customers have this to say
         </h2>
 
         <div className="

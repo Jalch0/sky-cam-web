@@ -6,15 +6,13 @@ import InfoChoose from "./components/InfoChoose";
 import Products from "./components/Products";
 import Projects from "./components/Projects";
 import Review from "./components/Review";
+import { useSectionInView } from "./libs/hook";
 
 export default function Home() {
 
-
   return (
-    <div className="w-fullflex flex-col items-center">
-       <div className="">
+    <div>
         <Carousel/>
-      </div>
         <CardInfo/>
         <Chooseus/>
         <InfoChoose />

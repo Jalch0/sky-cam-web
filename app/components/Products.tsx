@@ -1,16 +1,25 @@
+'use client'
 import React from 'react'
 import { MdSecurity } from "react-icons/md";
 import { FaHelmetSafety } from "react-icons/fa6";
 import { FaBuildingShield } from "react-icons/fa6";
 import { FaCar } from "react-icons/fa";
 import { BsBuildingFillLock } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 
 function Products() {
 
-
   return (
-      <div className="pb-16">
+
+
+    <motion.div 
+    className="pb-16"
+    initial={{ y: -100, opacity: 0 }}
+    whileInView={{ y: 1, opacity: 1 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.5 }}
+    >
         <div className="pb-12">
           <h2 className="text-4xl text-slate-700 text-center font-bold">
             Solutions For Multi-Industry Use
@@ -56,7 +65,9 @@ function Products() {
             <p className="text-xl py-4 ">Safe Zone</p>
           </div>
         </div>
-      </div>
+    </motion.div>
+
+
 
   );
 }

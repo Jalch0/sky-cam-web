@@ -18,7 +18,7 @@ function Footer() {
             alt='Logo SkyCam'
             width={170}
             />
-            <p className='leading-6 sm:px-0 px-5 text-justify'>Our mission is to provide top-tier mobile surveillance services using state-of-the-art trailer units to ensure the safety and security of our clients assets and properties. We are committed to delivering reliable, flexible, and efficient security solutions tailored to meet the unique needs of each client.</p>
+            <p className='leading-6 sm:px-0 px-5 text-justify'>Feel free to reach out to us at Sky-cam for any inquiries or to discuss your surveillance needs. Our dedicated team in Huntsville, Alabama, is here to ensure you receive the best service and support. Whether you are interested in our advanced surveillance trailers, need assistance with deployment, or have questions about our monitoring capabilities, we are ready to help. Contact us today to experience reliable security solutions tailored to your specific requirements..</p>
             <Link
             href="#home"
             className='py-2 px-4 bg-red-600 rounded text-white hover:scale-110 hover:-translate-y-1 transition hover:bg-white hover:text-red-600'
@@ -28,7 +28,7 @@ function Footer() {
           <div className='flex flex-col justify-start xs:py-12 lg:py-0 py-12'>
               <h3 className='text-2xl text-center font-bold pb-4'>LOCATION</h3>
              <span className='flex gap-2 items-center text-md pb-1'><FaBuilding className='text-red-600 text-lg '/> <p className=''>1918A Jordan Ln NW</p></span>
-             <span className='flex gap-2 items-center text-md pb-1'><FaPhoneAlt className='text-red-600 text-lg'/> <p className=''>+1 256 714 7099</p></span>
+             <span className='flex gap-2 items-center text-md pb-1'><FaPhoneAlt className='text-red-600 text-lg'/> <p className=''>+1 256 714 4046</p></span>
              <span className='flex gap-2 items-center text-md'><IoMailOpen className='text-red-600 text-lg'/> <p className=''>ai@sky-cam.com</p></span> 
           </div>
           {/* Right */}

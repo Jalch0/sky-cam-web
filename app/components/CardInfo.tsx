@@ -3,11 +3,15 @@ import { motion } from "framer-motion";
 import Image from 'next/image'
 import Link from "next/link";
 import React from 'react'
+import { useSectionInView } from "../libs/hook";
 
 
 
 function CardInfo() {
+
+
   return (
+
     <motion.div
       className="
     flex 
@@ -23,27 +27,17 @@ function CardInfo() {
     >
       <div className="xl:flex xl:flex-row xl:justify-center xl:items-center xl:pt-14 flex flex-col items-center">
         <div className="md:mr-14 mr-0 xs:px-10 px-24 text-neutral-600 2xl:w-1/3 md:w-1/2 w-full">
-          <h2 className="text-4xl pb-4 sm:text-start text-center">
-            BUILDING EXTRAORDINARY HOMES
+          <h2 className="text-4xl pb-4 sm:text-start text-center text-red-300 font-bold">
+            Sky-cam based in Huntsville, Alabama
           </h2>
-          <p className="sm:text-xl text-lg pb-3 leading-relaxed ">
-            With over 18 years of experience, Keystone Construction offers
-            beautiful high quality custom home building and renovation
-            services in the Bloomington, Indiana area.
+          <p className="sm:text-xl text-lg pb-3 leading-relaxed text-justify">
+          Our mission is to ensure optimal coverage and peace of mind for every client. Equipped with advanced technology, including a smart AI system and ample storage capabilities, our surveillance trailers are monitored 24/7 to deliver real-time video feeds and alerts, keeping you informed and secure at all times.
           </p>
-          <div className="w-12 h-[1.5px] bg-red-500 " />
-          <p className="pt-3 pb-10 leading-relaxed sm:text-lg text-md text-justify">
-            Our dedicated team will help you through the process of a new build
-            or remodel to make it straightforward and enjoyable, ensuring
-            that your home reflects your individual taste.
-            With every unique project, our mission is to serve you by
-            building or renovating the home
-            of your dreams.
-          </p>
+          <div className="w-12 h-[1.5px] bg-red-400 mb-10 " />
           <div className="xl:text-start text-center">
             <Link
               href="#products"
-              className="px-14 py-4 bg-white text-slate-700 rounded-[2.5rem] border border-slate-700 hover:text-white hover:bg-slate-700 transition tracking-widest"
+              className="px-14 py-4 bg-white text-red-300 font-bold rounded-[2.5rem] border border-red-300 hover:text-white hover:bg-red-300 transition tracking-widest"
             >
               VIEW MORE
             </Link>
@@ -67,27 +61,17 @@ function CardInfo() {
           {/* 2 */}
       <div className="xl:flex xl:flex-row xl:justify-center xl:items-center xl:pt-14 flex flex-col items-center w-full mb-14">
         <div className="lg:ml-14 ml-0 xs:px-10 px-24 text-neutral-600 2xl:w-1/3 md:w-1/2 w-full xl:order-2 order-0">
-          <h2 className="text-4xl pb-4 sm:text-start text-center">
-            BUILDING EXTRAORDINARY HOMES
+          <h2 className="text-4xl pb-4 sm:text-start text-center text-red-300 font-bold">
+          Sky-cam offers cost-efficient options
           </h2>
           <p className="sm:text-xl text-lg pb-3 leading-relaxed">
-            With over 18 years of experience, Keystone Construction offers
-            beautiful high quality custom home building and renovation
-            services in the Bloomington, Indiana area.
+          Our trailers are designed for maximum flexibility and ease of deployment, making them ideal for various applications such as construction site monitoring, event security, and remote facility surveillance. Whether you need short-term monitoring or long-term security solutions
           </p>
-          <div className="w-12 h-[1.5px] bg-red-500" />
-          <p className="pt-3 pb-10 leading-relaxed sm:text-lg text-md text-justify">
-          Our dedicated team will help you through the process of a new build
-            or remodel to make it straightforward and enjoyable, ensuring
-            that your home reflects your individual taste.
-            With every unique project, our mission is to serve you by
-          building or renovating the home
-          of your dreams.
-          </p>
+          <div className="w-12 h-[1.5px] bg-red-400 mb-10" />
           <div className="xl:text-start text-center">
             <Link
               href="#products"
-              className="px-14 py-4 bg-white text-slate-700 rounded-[2.5rem] border border-slate-700 hover:text-white hover:bg-slate-700 transition tracking-widest"
+              className="px-14 py-4 bg-white text-red-300 rounded-[2.5rem] border border-red-300 hover:text-white hover:bg-red-300 font-bold transition tracking-widest"
             >
               VIEW MORE
             </Link>
@@ -107,6 +91,8 @@ function CardInfo() {
         </div>
       </div>
     </motion.div>
+
+
   );
 }
 

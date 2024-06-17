@@ -75,9 +75,9 @@ const Carousel = () => {
             </div>
 
             <div className="absolute inset-x-[15%] bottom-1/2 hidden py-5 text-center text-white md:block">
-              <h5 className="text-4xl drop-shadow-[0_2.2px_1.2px_rgba(0,0,0,1)] font-bold uppercase">Take your Mobile Surveillance Trailer</h5>
+              <h5 className="text-4xl drop-shadow-[0_2.2px_1.2px_rgba(0,0,0,1)] font-bold uppercase">Enhance Security Anywhere</h5>
               <p className="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] font-bold text-2xl">
-                Some representative placeholder content for the first slide.
+              Deploy advanced surveillance wherever you need it most
               </p>
             </div>
           </div>
@@ -97,11 +97,12 @@ const Carousel = () => {
             </div>
 
             <div className="absolute inset-x-[15%] bottom-1/2 hidden py-5 text-center text-white md:block">
-            <h5 className="text-4xl drop-shadow-[0_2.2px_1.2px_rgba(0,0,0,1)] font-bold uppercase">Take your Mobile Surveillance Trailer</h5>
+            <h5 className="text-4xl drop-shadow-[0_2.2px_1.2px_rgba(0,0,0,1)] font-bold uppercase">Stay Connected 24/7</h5>
               <p className="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] font-bold text-2xl">
-                Some representative placeholder content for the first slide.
+              Monitor your assets with real-time video and alerts
               </p>
             </div>
+
           </div>
 
           <div
@@ -119,9 +120,9 @@ const Carousel = () => {
             </div>
 
             <div className="absolute inset-x-[15%] bottom-1/2 hidden py-5 text-center text-white md:block">
-            <h5 className="text-4xl drop-shadow-[0_2.2px_1.2px_rgba(0,0,0,1)] font-bold uppercase">Take your Mobile Surveillance Trailer</h5>
+            <h5 className="text-4xl drop-shadow-[0_2.2px_1.2px_rgba(0,0,0,1)] font-bold uppercase">Flexibility and Mobility</h5>
               <p className="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] font-bold text-2xl">
-                Some representative placeholder content for the first slide.
+              Easily relocate to new locations for maximum coverage
               </p>
             </div>
           </div>

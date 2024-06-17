@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 
 function Chooseus() {
-  const { ref } = useSectionInView("About", 0.25);
+  const { ref } = useSectionInView("About", 0.5);
 
   return (
     <section
